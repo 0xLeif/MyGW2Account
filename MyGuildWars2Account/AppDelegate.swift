@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GW2
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // MARK: Set the API Key here!
+        API.instance.configure(apiKey: "YOUR_API_KEY")
+        
         return true
     }
 

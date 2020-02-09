@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GW2",
+        "repositoryURL": "https://github.com/zmeriksen/GW2.git",
+        "state": {
+          "branch": "master",
+          "revision": "7f023e79ee3ee845fc6d76fb4ebf1dee48d581d0",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftUIKit",
+        "repositoryURL": "https://github.com/zmeriksen/SwiftUIKit.git",
+        "state": {
+          "branch": null,
+          "revision": "1ef1aeece1108aff8ad07fc6f2bcafb99f33afdd",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
